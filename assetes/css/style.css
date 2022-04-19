@@ -1,0 +1,435 @@
+/* ====== FONTS ========== 
+
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+====== FONTS ========== */
+
+/* ======== HEADER START =========== */
+header.vt-header.header-wrapper {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    
+}
+.vt-web-banner-wrapper {
+    background-color: #113c2b;
+    padding: 15px 0;
+}
+.vt-web-banner p{
+    color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+header .vorwerk-logo {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-left: 50px !important;
+}
+header .vorwerk-logo img {
+    width: 120px;
+    height: auto;
+}
+.vorwerk-user-attributes i{
+    color: #a0a4a1;
+    font-size: 22px;
+}
+.vorwerk-user-section{
+    float: right;
+}
+.vorwerk-user-section ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.vorwerk-user-attributes i{
+    color: #a0a4a1;
+    font-size: 22px;
+    position: relative;
+    top: -8px;
+}
+.vorwerk-user-section ul {
+    padding-left: 0;
+}
+.vorwerk-navigation-top-wrapper{
+    padding-top: 25px;
+}
+.nav-bar ul.primary-menu li:first-child {
+    margin-left: -12px;
+}
+.nav-bar ul li{
+    float: left;
+    margin: 0 35px;
+}
+.nav-bar ul li a {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    color: #575757;
+    padding-bottom: 7px;
+}
+.vt-header{
+    background-color: #ffffff;
+}
+.cart_count {
+    position: absolute;
+    top: -8px;
+    background-color: #00a760;
+    color: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+}
+.nav-bar ul.primary-menu li:hover a.menu-item{
+    color: #009a3d;
+    border-bottom: 3px solid #009a3d;
+}
+/* ======== HEADER END =========== */
+
+
+/* ======== FOOTER START =========== */
+.vorwerk-footer-wrapper {
+    padding: 20px 0;
+    background-color: #4b4a4b;
+    position: relative;
+}
+.vorwerk-footer-wrapper .footer-attributes h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    line-height: 48px;
+    color: #fff;
+}
+.vorwerk-footer-wrapper .footer-attributes p, .vorwerk-footer-wrapper .footer-attributes p a {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: .16px;
+    color: #fff;
+}
+.vorwerk-footer-wrapper .contact-us-link {
+    padding-top: 12px;
+}
+.vorwerk-footer-wrapper .contact-us-link a {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #009a3d;
+}
+.vorwerk-footer-wrapper .footer-second-column ul {
+    padding-left: 0;
+}
+.vorwerk-footer-wrapper .footer-second-column ul li {
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    padding: 3px 3px 3px 15px;
+    transition: .3s;
+}
+.vorwerk-footer-wrapper .footer-second-column ul li.current-language {
+    border: 1px solid #009a3d;
+}
+.vorwerk-footer-wrapper .footer-second-column ul li.current-language a {
+    color: #009a3d;
+    position: relative;
+}
+.vorwerk-footer-wrapper .footer-second-column ul li.current-language a i {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.vorwerk-footer-wrapper .footer-second-column ul li a {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: .16px;
+    font-weight: 400;
+    display: block;
+    color: #fff;
+    transition: .3s;
+}
+.footer-right-section-wrapper {
+    padding-left: 35px;
+}
+.vorwerk-footer-wrapper .footer-newsletter-btn {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+.footer-newsletter-btn a {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    background: #009a3d;
+    border: 1px solid #009a3d;
+    border-radius: 12px 0 12px 12px;
+    color: #fff;
+    padding: 15px 24px;
+    transition: .3s;
+}
+.vorwerk-footer-wrapper .thermomix-social-icon-widget h4, .vorwerk-footer-wrapper .kobold-social-icon-widget h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+.vorwerk-footer-wrapper .social-widget-content .about-social-links {
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.vorwerk-footer-wrapper .social-widget-content .about-social-links li {
+    float: left;
+    margin-right: 16px;
+}
+.footer_widget ul li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.vorwerk-footer-wrapper .social-widget-content .about-social-links li a svg {
+    width: 32px;
+    height: 32px;
+}
+.vorwerk-footer-wrapper .social-widget-content .about-social-links li a svg path,  .vorwerk-footer-wrapper .social-widget-content .about-social-links li a svg circle {
+    fill: #fff;
+    transition: fill .5s ease;
+    -webkit-transition: fill .5s ease;
+    -moz-transition: fill .5s ease;
+    -ms-transition: fill .5s ease;
+}
+.vorwerk-footer-wrapper .vorwerk-products-thumb {
+    margin-top: 70px;
+}
+.vorwerk-footer-wrapper .vorwerk-products-thumb {
+    width: 130px;
+}
+.vorwerk-footer-wrapper .footer-bottom-menu {
+    margin-top: 37px;
+}
+.vorwerk-footer-wrapper .footer-bottom-menu ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+.vorwerk-footer-wrapper .footer-bottom-menu ul li {
+    display: inline-block;
+    padding-right: 24px;
+}
+.vorwerk-footer-wrapper .footer-bottom-menu ul li a {
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+/* ======== FOOTER END =========== */
+
+/* ======== REPAIR START =========== */
+main.vorwerk-main-wrapper {
+    padding: 50px 0;
+}
+.repair-wrapper{
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    padding: 20px 40px 40px 40px;
+    width: 600px;
+    margin: 0 auto;
+}
+.repair-wrapper .thermomix-repair img, .repair-wrapper .kobold-repair img {
+    margin-bottom: 30px;
+}
+
+.repair-wrapper h1 {
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 30px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.repair-wrapper p {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.repair-wrapper .thermomix-repair, .repair-wrapper .kobold-repair {
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    padding: 20px 20px 10px 20px;
+}
+.repair-wrapper .thermomix-repair h3, .repair-wrapper .kobold-repair h3{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #000000;
+}
+.vorwerk-popup img{
+    margin: 0 auto;
+}
+.repair-item:hover .kobold-repair {
+    border: 1px solid #009a3d;
+}
+.repair-item:hover  .thermomix-repair{
+    border: 1px solid #009a3d;
+}
+.kobold-select{
+    width: 100%;
+    margin-top: 30px;
+    
+    
+}
+.kobold-bottom-border{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 20px;
+}
+.kobold-select .kobold-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #D9DADA66;
+    border-color: transparent;
+
+}
+.kobold-select .kobold-menu{
+    width: 100%;
+}
+.kobold-select .kobold-btn:hover{
+   
+    border-color: transparent;
+}
+a.dropdown-item i {
+    float: right;
+    margin-top: -30px;
+}
+.dropdown-title img {
+    margin-right: 10px;
+}
+a.search {
+    background: #00A760;
+    padding: 15px 24px;
+    display: block;
+    border-radius: 30px;
+    justify-content: center;
+    color: #ffffff !important;
+    width: 521px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ======== REPAIR SELECTION START =========== */
+.kobold-item-select {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 40px;
+}
+.kobold-item-select .vacuum-cleaner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.kobold-item-select .vacuum-cleaner p{
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.kobold-item-select .vacuum-cleaner img{
+    float: left;
+}
+.kobold-item-select .vacuum-cleaner-help-center {
+    background: #FBFBFB;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.kobold-item-select .vacuum-cleaner-help-center p{
+    margin-bottom: 20px;
+}
+.kobold-item-select .vacuum-cleaner-help-center h3{
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 0;
+}
+a.visit-help-center {
+    display: block;
+    width: 295px;
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 24px;
+    border-radius: 30px;
+    border: 1px solid #00A760;
+    color: #00A760 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    
+}
+.vacuum-contact-us {
+    border: 1px solid #E6E6E6;
+    padding: 16px 24px;
+    border-radius: 12px;
+}
+.vacuum-contact-us p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.vacuum-contact-us a{
+    color: #00A760 !important;
+    text-decoration: underline !important;
+    font-weight: 600;
+}
+/* ======== REPAIR SELECTION END =========== */
+/* ======== REPAIR END =========== */
+
+
+
+/* ======== CONTACT START =========== */
+
+element.style {
+}
+main.contact-wrapper {
+    padding: 40px 0;
+}
+.vorwerk-contact{
+    width: 595px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #EBEBEB;
+}
+.send-btn a{
+    display: block;
+    width: 515px;
+    background: #00A760;
+    color: #ffffff;
+    padding: 15px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+}
+.input-margin {
+    margin-bottom: 20px;
+}
+.flex-display{
+    display: flex;
+}
+.input-margin p{
+    margin-left: 10px;
+}
+/* ======== CONTACT END =========== */
