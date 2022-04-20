@@ -1,0 +1,59 @@
+/* ====== NAVIGATION BUTTON ======== */
+.nav-bar .custom-btn{
+    background-color: #ddd;
+    border: 1px solid #000000;
+}
+.nav-bar .custom-btn .icon-bar{
+    background: #000000;
+}
+@media only screen and (max-width:600px) {
+    .nav-bar ul.primary-menu li:first-child {
+        margin-left: 0;
+    }
+    
+    .repair-wrapper {
+       
+        width: 100%;
+        
+    }
+    .kobold-item-select {
+        width: auto;
+    }
+    .thermomix-repair {
+        margin-bottom: 20px;
+    }
+    a.search {
+        width: auto;
+    }
+    .vorwerk-products-thumb {
+        margin-left: 110px;
+        padding-top: 45px;
+    }
+    .footer-right-section-wrapper {
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .nav-bar ul li {
+        float: left;
+        margin: 0 10px;
+    }
+    .footer-right-section-wrapper {
+        padding-left: 0;
+    }
+    .nav-bar ul li{
+        float: none;
+        margin: 0 auto ;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .nav-bar ul.primary-menu li:first-child {
+        margin-left: 7px;
+    }
+    .nav-bar ul li {
+        
+        margin: 0 10px;
+    }
+   
+}

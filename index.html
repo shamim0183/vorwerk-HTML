@@ -19,11 +19,11 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./assetes/css/layout.css">
-    <link rel="stylesheet" href="./assetes/css/responsive.css">
     <link rel="stylesheet" href="./assetes/css/sass.css">
     <link rel="stylesheet" href="./assetes/css/style.css">
+    <link rel="stylesheet" href="./assetes/css/responsive.css">
 </head>
-<body>
+<body >
     <header class="vt-header header-wrapper sticky-nav">
         <div class="vt-web-banner-wrapper">
             <div class="vt-web-banner">
@@ -120,7 +120,7 @@
                             </ul>
                         </div>
                         <div class="vorwerk-logo">
-                            <a href="#" class="custom-logo-link">
+                            <a href="index.html" class="custom-logo-link">
                                 <img src="./assetes/img/logo-vorwerk.png" alt="logo vorwerk" class="img-fluid">
                             </a>
                         </div> 
@@ -130,32 +130,40 @@
                                     <div class="col-md-12">
                                         <div class="vt-header-nav">
                                             <nav class="nav-bar">
-                                                <ul class="primary-menu " >
-                                                    <li >
-                                                        <a href="#" class="menu-item">Thermomix® <span class="caret"></span>
-                                                        </a>  
-                                                    </li>
-                                                    <li>
-                                                       <a href="#" class="menu-item">Kobold <span class="caret"></span>
-                                                        </a>  
-                                                    </li>
-                                                    <li>
-                                                       <a href="#" class="menu-item">Accessories <span class="caret"></span>
-                                                        </a>  
-                                                    </li>
-                                                    <li>
-                                                       <a href="#" class="menu-item">Discover & Experience <span class="caret"></span>
-                                                        </a>  
-                                                    </li>
-                                                    <li>
-                                                       <a href="#" class="menu-item">Career <span class="caret"></span>
-                                                        </a>  
-                                                    </li>
-                                                    <li>
-                                                       <a href="#" class="menu-item">Repair Center <span class="caret"></span>
-                                                        </a>  
-                                                    </li>
-                                                </ul>
+                                                <button type="button" class="navbar-toggle collapsed custom-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                    <span class="sr-only">Toggle navigation</span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                  </button>
+                                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                    <ul class="primary-menu " >
+                                                        <li >
+                                                            <a href="#" class="menu-item">Thermomix® <span class="caret"></span>
+                                                            </a>  
+                                                        </li>
+                                                        <li>
+                                                           <a href="#" class="menu-item">Kobold <span class="caret"></span>
+                                                            </a>  
+                                                        </li>
+                                                        <li>
+                                                           <a href="#" class="menu-item">Accessories <span class="caret"></span>
+                                                            </a>  
+                                                        </li>
+                                                        <li>
+                                                           <a href="#" class="menu-item">Discover & Experience <span class="caret"></span>
+                                                            </a>  
+                                                        </li>
+                                                        <li>
+                                                           <a href="#" class="menu-item">Career <span class="caret"></span>
+                                                            </a>  
+                                                        </li>
+                                                        <li>
+                                                           <a href="#" class="menu-item">Repair Center <span class="caret"></span>
+                                                            </a>  
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </nav>                                           
                                         </div>
                                     </div>
@@ -170,98 +178,100 @@
 
     <main class="vorwerk-main-wrapper">
         <div class="container">
-            <div class="repair-wrapper">
+            <div class="repair-wrapper" id="repair">
                 <img src="./assetes/img/repair-image.png" alt="Repair" class="img-fluid">
                 <h1 class="bottom-border">Let’s find out which repair service you need!</h1>
                 <p>Please select your appliance for better understanding of your repair service requirement.</p>                
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="#" class="repair-item">
+                        <div  class="repair-item thermomix-item">
                             <div class="thermomix-repair">
                                 <img src="./assetes/img/thermomix.png" alt="Thermomix" class="img-fluid">
                                 <h3>Thermomix</h3>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <a href="#" class="repair-item">
+                        <div  class="repair-item thermomix-item" id="kobold" onclick="item()">
                             <div class="kobold-repair">
                                 <img src="./assetes/img/kobold.png" alt="kobold" class="img-fluid">
                                 <h3>Kobold</h3>
                             </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="col-md-12">                      
-                        <div class="kobold-bottom-border">
-                            <div class="btn-group kobold-select">
-                                <button type="button " class="btn btn-default dropdown-toggle kobold-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Select Device <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu kobold-menu">
-                                <li>
-                                      <a class="dropdown-item" href="#">
-                                          <div class="dropdown-title">
-                                              <img src="./assetes/img/vacum.png" alt="" class="img-fluid">
-                                          Handheld vacuum cleaners
-                                        </div>
-                                        <i class="fas fa-close"></i>
-                                    </a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                      <a class="dropdown-item" href="#">
-                                          <div class="dropdown-title">
-                                              <img src="./assetes/img/robot.png" alt="" class="img-fluid">
-                                              Robot vacuum cleaner
-                                        </div>
-                                        <i class="fas fa-close"></i>
-                                    </a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                      <a class="dropdown-item" href="#">
-                                          <div class="dropdown-title">
-                                              <img src="./assetes/img/cylinder.png" alt="" class="img-fluid">
-                                              Cylinder Vacuum Cleaner
-                                        </div>
-                                        <i class="fas fa-close"></i>
-                                    </a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                      <a class="dropdown-item" href="#">
-                                          <div class="dropdown-title">
-                                              <img src="./assetes/img/battery.png" alt="" class="img-fluid">
-                                              Battery powered vacuum cleaner
-                                        </div>
-                                        <i class="fas fa-close"></i>
-                                    </a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                      <a class="dropdown-item" href="#">
-                                          <div class="dropdown-title">
-                                              <img src="./assetes/img/cordless.png" alt="" class="img-fluid">
-                                              Cordless Vacuum Cleaner - VC100
-                                        </div>
-                                        <i class="fas fa-close"></i>
-                                    </a>
-                                </li>
-                                
-                                </ul>
+                    <div class="col-md-12"> 
+                        <div id="kobold-item-option">
+                            <div class="kobold-bottom-border">
+                                <div class="btn-group kobold-select">
+                                    <button type="button " class="btn btn-default dropdown-toggle kobold-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select Device <span class="caret"></span>
+                                    </button>                                   
+                                     <ul class="dropdown-menu kobold-menu">
+                                    <li>
+                                          <a class="dropdown-item" href="#">
+                                              <div class="dropdown-title" id="vacum-cleaner" onclick="vacumm()">
+                                                  <img src="./assetes/img/vacum.png" alt="" class="img-fluid">
+                                              Handheld vacuum cleaners
+                                            </div>
+                                            <i class="fas fa-close"></i>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                          <a class="dropdown-item" href="#">
+                                              <div class="dropdown-title">
+                                                  <img src="./assetes/img/robot.png" alt="" class="img-fluid">
+                                                  Robot vacuum cleaner
+                                            </div>
+                                            <i class="fas fa-close"></i>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                          <a class="dropdown-item" href="#">
+                                              <div class="dropdown-title">
+                                                  <img src="./assetes/img/cylinder.png" alt="" class="img-fluid">
+                                                  Cylinder Vacuum Cleaner
+                                            </div>
+                                            <i class="fas fa-close"></i>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                          <a class="dropdown-item" href="#">
+                                              <div class="dropdown-title">
+                                                  <img src="./assetes/img/battery.png" alt="" class="img-fluid">
+                                                  Battery powered vacuum cleaner
+                                            </div>
+                                            <i class="fas fa-close"></i>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                          <a class="dropdown-item" href="#">
+                                              <div class="dropdown-title">
+                                                  <img src="./assetes/img/cordless.png" alt="" class="img-fluid">
+                                                  Cordless Vacuum Cleaner - VC100
+                                            </div>
+                                            <i class="fas fa-close"></i>
+                                        </a>
+                                    </li>
+                                    
+                                    </ul> 
+                                </div>
                             </div>
-                        </div>
-                        <div class="search-repair-solution">
-                            <a href="#" class="search">
-                               Search for Repair Solution
-                            </a>
-                        </div>
+                            <div class="search-repair-solution">
+                                <a href="#" class="search">
+                                   Search for Repair Solution
+                                </a>
+                            </div>
+                        </div>                     
                     </div>
                 </div>
             </div>
 
-            <div class="kobold-item-select">
-                <div class="vacuum-cleaner">
+            <div class="kobold-item-select" id="bolod-items">
+                <div class="vacuum-cleaner" >
                     <img src="./assetes/img/vacum big.png" alt="" class="img-fluid">
                     <p>Handheld vacuum cleaners</p>
                 </div>
@@ -272,7 +282,7 @@
                 </div>
                 <div class="vacuum-contact-us">
                     <p>If you still haven't been able to find a solution in the Help Center?</p>
-                    <a href="#" class="vacuum-contact">Contact us</a>
+                    <a href="contact.html" class="vacuum-contact">Contact us</a>
                 </div>
             </div>
         </div>
@@ -402,11 +412,30 @@
             </div>
         </div>
     </footer>
+    <div class="support">
+        <button class="support-btn">
+            <span>
+                <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g id="Layer_4"><path d="M11,12.3V13c0,0-1.8,0-2,0v-0.6c0-0.6,0.1-1.4,0.8-2.1c0.7-0.7,1.6-1.2,1.6-2.1c0-0.9-0.7-1.4-1.4-1.4 c-1.3,0-1.4,1.4-1.5,1.7H6.6C6.6,7.1,7.2,5,10,5c2.4,0,3.4,1.6,3.4,3C13.4,10.4,11,10.8,11,12.3z"></path><circle cx="10" cy="15" r="1"></circle><path d="M10,2c4.4,0,8,3.6,8,8s-3.6,8-8,8s-8-3.6-8-8S5.6,2,10,2 M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10s10-4.5,10-10S15.5,0,10,0 L10,0z"></path></g></svg>
+            </span>
+            <span class="support-text">
+                support
+            </span>
+        </button>
+    </div>
+    <div class="book-demo-bubble">
+        <a href="">
+            <img src="./assetes/img/demo-request.png" alt="" class="img-fluid">
+            <span>Product Demonstration</span> 
+        </a>
+    </div>
 
     <!-- JQUERY  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- BOOTSTRAP JAVASCRIPT -->
     <script src="./assetes/js/bootstrap.min.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="./assetes/js/main.js"></script>
 </body>
 </html>
