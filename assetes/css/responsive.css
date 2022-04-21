@@ -63,7 +63,7 @@
         line-height: 1.4;
         font-weight: 700;
     }
-    .send-btn{
+    .send-btn a{
         width: 100%;
     }
    
