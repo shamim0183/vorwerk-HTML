@@ -90,6 +90,17 @@ header .vorwerk-logo img {
 .nav-bar ul.primary-menu li:hover a.menu-item{
     color: #009a3d;
     border-bottom: 3px solid #009a3d;
+    
+    
+}
+.nav-bar ul.primary-menu li.active a{
+    color: #009a3d;
+    border-bottom: 3px solid #009a3d;
+    
+    
+}
+.vt-web-banner p {
+    margin: 0;
 }
 /* ======== HEADER END =========== */
 

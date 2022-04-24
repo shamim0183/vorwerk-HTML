@@ -20,3 +20,7 @@ function vacumm(){
    
     
 }
+
+$(document).on('click', '#menu li', function(){
+    $(this).addClass('active').siblings().removeClass('active')
+});
