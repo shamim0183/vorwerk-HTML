@@ -24,7 +24,9 @@ header.vt-header.header-wrapper {
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 14px;
     line-height: 21px;
+    margin: 0;
 }
+
 header .vorwerk-logo {
     text-align: center;
     margin-bottom: 32px;
@@ -99,9 +101,7 @@ header .vorwerk-logo img {
     
     
 }
-.vt-web-banner p {
-    margin: 0;
-}
+
 /* ======== HEADER END =========== */
 
 
@@ -150,6 +150,7 @@ header .vorwerk-logo img {
 }
 .vorwerk-footer-wrapper .footer-second-column ul li.language-item:hover a{
     color:  #009a3d;
+    transition: .3s;
 }
 .vorwerk-footer-wrapper .footer-second-column ul li.current-language {
     border: 1px solid #009a3d;
@@ -300,6 +301,7 @@ main.vorwerk-main-wrapper {
 }
 .repair-item:hover .kobold-repair {
     border: 1px solid #009a3d;
+    
 }
 .repair-item:hover  .thermomix-repair{
     border: 1px solid #009a3d;
